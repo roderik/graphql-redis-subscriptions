@@ -32,8 +32,7 @@
     "watch": "tsc -w",
     "testonly": "mocha --reporter spec src/test/tests.ts",
     "integration": "mocha --reporter spec src/test/integration-tests.ts",
-    "coverage": "nyc --reporter=html --reporter=text mocha src/test/**/*.ts",
-    "prepublish": "tsc"
+    "coverage": "nyc --reporter=html --reporter=text mocha src/test/**/*.ts"
   },
   "peerDependencies": {
     "graphql-subscriptions": "^1.0.0 || ^2.0.0"
